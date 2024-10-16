@@ -1,0 +1,90 @@
+/*css trang chủ*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width: auto;
+    height: 200px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header img{
+    padding: 25px;
+}
+
+nav .menu ul{
+    align-items: center;
+    display: flex;
+}
+
+ nav .menu ul li{
+    padding: 0 40px;
+    list-style: none;
+}
+
+nav .menu ul li a{
+    color: white;
+    line-height: 25px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav .menu ul li a:hover{
+    font-size: 25px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    color: rgb(171, 26, 26);
+}
+
+nav .menu ul .tim{
+    line-height: 35px;
+    float: right;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tieude{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 1px 5px 10px #77325a;
+    color: rgb(228, 58, 115);
+}
+.tieudephu{
+    text-align: center;
+    font-size: 15px;
+    color:rgb(100, 97, 97)
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+}
+
+.sanpham{
+    border-radius: 10px;
+    padding:10px;
+    margin: 10px;
+    text-align: center;
+}
+.sanpham .ten{
+    font-size: 20px;
+    color: rgb(20, 19, 19);
+    font-family: sans-serif;
+}
+.sanpham img{
+    max-width: 100%;
+}
+.link1{
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
